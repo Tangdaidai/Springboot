@@ -1,0 +1,6 @@
+package com.example.Datasource.mapper;
+
+public interface UserMapper {
+
+	User getUser(Integer id);
+}

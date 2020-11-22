@@ -1,0 +1,13 @@
+# 设置数据库相关
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/springboot
+spring.datasource.username=root
+spring.datasource.password=123456
+
+# 设置 c3p0 数据源
+spring.datasource.type=com.mchange.v2.c3p0.ComboPooledDataSource
+
+# 设置 MyBatis mapper 的别名所在的包
+mybatis.type-aliases-package=com.example.Datasource.mapper
+# 设置 mapper 接口对应 XMl 配置文件的路径
+mybatis.mapper-locations=classpath:mapperConfig/*.xml

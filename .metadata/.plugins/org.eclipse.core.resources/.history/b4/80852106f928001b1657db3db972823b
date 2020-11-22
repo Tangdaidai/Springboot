@@ -1,0 +1,8 @@
+package com.example.Datasource.mapper;
+
+import com.example.Datasource.domain.User;
+
+public interface UserMapper {
+
+	User getUser(Integer id);
+}
