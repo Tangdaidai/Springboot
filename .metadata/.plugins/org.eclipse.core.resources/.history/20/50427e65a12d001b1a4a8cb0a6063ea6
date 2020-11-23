@@ -1,0 +1,25 @@
+package com.example.demo0;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties(prefix="mrbird.blog")//指明属性的通用前缀，通用前缀加属性名和配置文件的属性名一一对应
+@ConfigurationProperties
+public class ConfigBean {
+
+	 private String name;
+	 private String title;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	    
+	   
+}

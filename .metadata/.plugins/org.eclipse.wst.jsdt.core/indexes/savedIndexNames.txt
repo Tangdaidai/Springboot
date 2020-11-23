@@ -1,7 +1,1 @@
 INDEX VERSION 1.4+D:\eclipse-jee-2020-03-R-incubation-win32-x86_64\eclipse\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1996032562.index
-1298317198.index
-1241746487.index
-73590140.index
-1750471696.index
-3514381146.index

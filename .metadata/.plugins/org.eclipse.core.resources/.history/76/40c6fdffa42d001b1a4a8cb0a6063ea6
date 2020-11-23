@@ -1,0 +1,3 @@
+mrbird.blog.name=mrbird's blog
+mrbird.blog.title=Spring Boot
+mrbird.blog.wholeTitle=${mrbird.blog.name}--${mrbird.blog.name}
